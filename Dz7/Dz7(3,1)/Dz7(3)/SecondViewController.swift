@@ -13,7 +13,7 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
 
         let customView = UIView(frame: UIScreen.main.bounds)
-        customView.backgroundColor = .white
+        customView.backgroundColor = .blue
         
         button = UIButton(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
         button.backgroundColor = .black
